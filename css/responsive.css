@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+@media only screen and (max-width: 768px) {
+
+    #header-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start
+    }
+
+    #header-section .menu-bar {
+        width: 100%;
+    }
+
+    .side-bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .side-bar .line {
+        width: 30px;
+        height: 3px;
+        background-color: #000000;
+        margin: 5px 0;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        height: 0;
+        background: #3ce2ad;
+        transition: 0.4s;
+        display: none;
+    }
+
+    .menu-bar.active {
+        height: auto;
+    }
+
+    .menu-bar.active ul {
+
+        opacity: 1;
+    }
+
+    .menu-bar ul {
+        display: block !important;
+        width: fit-content;
+        margin: 25px auto;
+        text-align: center;
+        transition: 0.4s;
+        overflow: hidden;
+        opacity: 0;
+    }
+
+    .menu-bar ul li {
+        margin: 30px;
+        display: block;
+    }
+
+    .menu-bar ul li a {
+        color: #fff !important;
+    }
+
+    .home-text h1 {
+        padding: 155px 0 20px 0;
+    }
+
+    .about-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img,
+    .about-text {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .boxs {
+        display: flex;
+        margin: 0 20px 0 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .about-box {
+
+        margin: 5px 0;
+    }
+
+    .about-box a {
+        padding: 15px 20px;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .help-box {
+        width: 80%;
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        color: var(--color3);
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .help-box .box {
+        width: 100%;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .top-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .Jenna-content {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .Jenna-text {
+        height: 100%;
+        width: 100%;
+    }
+
+    .Jenna-img {
+        width: 100%;
+    }
+
+    .num-box {
+        display: contents;
+        text-align: center;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chart-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards a {
+        padding: 15px 20px;
+    }
+
+    .cards a:hover {
+        border: 2px solid #0078aa;
+        background: none;
+        color: #000;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #Questions {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .part-one {
+        width: 100%;
+        padding: 40px 0 0 40px;
+    }
+
+
+    .two-drop {
+        width: 100%;
+        padding: 40px 0 0 40px;
+    }
+
+    .part-two {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+    .contact-info {
+        padding: 60px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .part-two-card .part-cards {
+        width: 100%;
+    }
+
+    .cards {
+        width: auto;
+        padding: 90px 80px 70px;
+        background-color: #d4fdfe !important;
+        border-radius: 10px;
+    }
+
+    .part-two-card {
+        width: 100%;
+        /* padding: 20px; */
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-part-two {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .part-two-form {
+        width: 100%;
+    }
+
+    .form-info {
+        width: 100%;
+        margin: 50px 20px;
+    }
+
+    .footer-part {
+        display: flex;
+        padding: 60px 0;
+        flex-direction: column;
+    }
+
+    .footer-content {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .footer-content p {
+        padding-right: 0;
+    }
+
+    .form-info input[type="text"],
+    .form-info input[type="email"],
+    .form-info input[type="tel"],
+    .form-info input[type="date"],
+    .dropdown {
+        width: 90%;
+    }
+
+    .contact-part {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+}
